@@ -902,3 +902,122 @@ line-height: normal;*/
 .fab:hover {
     background-color: #f16d7f;
 }
+
+.menu_block {
+    display: none;
+    position: absolute;
+    justify-content: space-between;
+    width: 820px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px 25px;
+    border: 1px solid #e8e8e8;
+    top: 151px;
+    right: 154px;
+}
+
+.menu_list:hover .menu_block {
+    display: flex;
+}
+
+.menu_block::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: -9px;
+    left: 57px;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    transform: rotate(45deg);
+    border-left: 1px solid #e8e8e8;
+    border-top: 1px solid #e8e8e8;
+}
+
+.menu_block_link {
+    display: block;
+    text-decoration: none;
+    color: #646464;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 32px;
+    text-transform: capitalize;
+    /* Text style for "Dresses ," 
+    font-style: normal;
+    letter-spacing: 0.35px;
+    line-height: normal;*/
+}
+
+.menu_left_hd {
+    color: #232323;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 32px;
+    text-transform: uppercase;
+    /* Text style for "W, omen" 
+    font-style: normal;
+    letter-spacing: 0.35px;
+    line-height: normal;*/
+}
+
+.menu_block_left {
+    display: flex;
+    flex-direction: column;
+    width: 235px;
+}
+
+.menu_block_center {
+    display: flex;
+    flex-direction: column;
+    width: 235px;
+}
+
+.menu_block_right {
+    display: flex;
+    flex-direction: column;
+    width: 235px;
+}
+
+.menu_line {
+    background-color: #e8e8e8;
+    margin-bottom: 16px;
+    color: #e8e8e8;
+}
+
+.menu_block_img {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-top: 32px;
+}
+
+.menu_block_image {
+    position: relative;
+}
+
+.menu_block_img_txt {
+    position: absolute;
+    color: #ffffff;
+    font-family: "Lato";
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 28px;
+    text-align: right;
+    text-transform: uppercase;
+    margin: 10px;
+    width: 71px;
+    /* Text style for "S, uper  ," 
+font-style: normal;
+letter-spacing: 0.55px;
+line-height: normal;*/
+
+}
