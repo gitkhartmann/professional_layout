@@ -1374,6 +1374,8 @@ line-height: normal;*/
           justify-content: center;
   /*top: 983px;
     position: absolute;*/
+  position: absolute;
+  top: 976px;
 }
 
 .options_sales .hr_price {
@@ -1381,6 +1383,10 @@ line-height: normal;*/
   border: 1px solid #eaeaea;
   margin-top: 43px;
   margin-bottom: 63px;
+}
+
+.options_sales select {
+  margin-top: 16px;
 }
 
 .options_sales_flex {
@@ -1517,48 +1523,55 @@ line-height: normal;*/
           justify-content: space-between;
 }
 
-.input_size {
+.choose_color {
   width: 144px;
   height: 35px;
   border: 1px solid #eaeaea;
   background-color: #ffffff;
-  background-image: url();
   color: #bcbcbc;
-  padding: 0px 14px;
-  background: url(img/down.png);
-  background-repeat: no-repeat;
-  background-position-x: 154px;
-  background-position-y: 15px;
-  margin-top: 16px;
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: center;
+  padding-left: 15px;
 }
 
-.input_color {
+.choose_size {
   width: 144px;
   height: 35px;
   border: 1px solid #eaeaea;
   background-color: #ffffff;
-  background-image: url();
   color: #bcbcbc;
-  padding: 0px 9px 0px 14px;
-  background: url(img/down.png);
-  background-repeat: no-repeat;
-  background-position-x: 149px;
-  background-position-y: 15px;
-  margin-top: 16px;
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: center;
+  padding-left: 15px;
 }
 
-.input_quantity {
+.quantity {
   width: 144px;
   height: 35px;
   border: 1px solid #eaeaea;
   background-color: #ffffff;
-  background: url(img/down.png);
-  background-repeat: no-repeat;
-  background-position-x: 154px;
-  background-position-y: 15px;
   color: #bcbcbc;
-  padding: 0px 14px;
-  margin-top: 16px;
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: center;
+  padding-left: 15px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 
 .options_add_cart {
@@ -1595,5 +1608,35 @@ line-height: normal;*/
   letter-spacing: normal;
   line-height: normal;
   text-align: left;
+}
+
+.pre_cardbox_h {
+  color: #4d4d4d;
+  font-family: "Lato";
+  font-size: 24px;
+  font-weight: 1000;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 794px;
+}
+
+.card_box_singe_page {
+  margin-top: 72px;
+}
+
+label {
+  display: inline-block;
+  color: #2f2f2f;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+  text-transform: uppercase;
 }
 /*# sourceMappingURL=style.css.map */

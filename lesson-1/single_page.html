@@ -419,18 +419,35 @@
                     <div class="form_options">
                         <form action="#">
                             <div class="form_options_block">
-                                <div class="choose_color">
-                                    <p class="options_check_span">choose color</p>
-                                    <input class="input_color" type="text" placeholder="Red" name="" id="">
-                                </div>
-                                <div class="choose_size">
-                                    <p class="options_check_span">choose size</p>
-                                    <input class="input_size" type="text" placeholder="XXL" name="" id="">
-                                </div>
-                                <div class="quantity">
-                                    <p class="options_check_span">quantity</p>
-                                    <input class="input_quantity" type="text" placeholder="2" name="" id="">
-                                </div>
+                                <div class="options_blocks">
+                                    <label for="color">CHOOSE COLOR</label>
+                                    <select class="choose_color" name="" id="color">
+                                        <option value="Red">Red</option>
+                                        <option value="Black">Black</option>
+                                        <option value="Green">Green</option>
+                                        <option value="Pink">Pink</option>
+                                        <option value="White">White</option>
+                                        <option value="Pink">Pink</option>
+                                    </select></div>
+                                <div class="options_blocks">
+                                    <label for="Size">CHOOSE SIZE</label>
+                                    <select name="" id="Size" class="choose_size">
+                                        <option value="XS">XS</option>
+                                        <option value="S">S</option>
+                                        <option value="M">M</option>
+                                        <option value="L">L</option>
+                                        <option value="XL">XL</option>
+                                        <option value="XXL">XXL</option>
+                                    </select></div>
+                                <div class="options_blocks">
+                                    <label for="quantity">QUANTITY</label>
+                                    <select name="" id="quantity" class="quantity">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select></div>
                             </div>
                             <button type="submit" class="options_add_cart"><a class="options_add_cart_link" href="#">
                                     <img class="options_cart_svg" src="img/cart_pink.svg" alt="cart">
@@ -442,9 +459,10 @@
             </div>
         </div>
     </div>
+
     <div class="container">
-        <h2></h2>
-        <div class="card_box">
+        <h2 class="pre_cardbox_h">you may like also</h2>
+        <div class="card_box card_box_singe_page">
             <div class="card">
                 <a class="card_link" href="#"> <img class="card_img" src="img/card9.png" alt="card9">
                     <h3 class="card_text">BLAZE LEGGINGS</h3>
