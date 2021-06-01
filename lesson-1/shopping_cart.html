@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <script src="https://kit.fontawesome.com/40e78ff414.js" crossorigin="anonymous"></script>-->
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="menu_top">
+                <div class="menu_top_left">
+                    <div class="logo_top"><a href="" class="logo_link"></a>
+                        <img class="logotipe" src="img/logo.svg" alt="logo">
+                        <p class="logotipe_txt">BRAN<span class="logotipe_txt_d">D</span></p></a>
+                    </div>
+                    <div class="searching">
+                        <div class="search_brow">
+                            <details>
+                                <summary class="details">
+                                    <p class="browse">Browse</p>
+                                    <div class="row"><img src="img/tr.png" alt="tr"></div>
+                                </summary>
+                            </details>
+                        </div>
+                        <form action="#">
+                            <input type="text" class="input_search" placeholder="Search for item..." name="" id="">
+                            <button class="button_search" type="submit" value="" width="36px" height="36px"><i
+                                    class="fa fa-search"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="menu_top_right">
+                    <div class="cart">
+                        <a href="#" width="32px" height="29px"><img src="img/cart.png" alt="cart"></a></div>
+                    <details>
+                        <summary class="account_manage">
+                            <p class="account_text">My&nbsp;Account</p>
+                            <div class="row"><img src="img/tr2.png" alt="tr"></div>
+                        </summary>
+                    </details>
+                </div>
+            </div>
+        </div>
+        <hr class="line">
+        <div class="container">
+            <div class="menu_bottom">
+                <nav>
+                    <ul class="menu">
+                        <li class="menu_list"><a class="menu_text" href="#"> HOME </a>
+                            <div class="menu_block">
+                                <div class="menu_block_left">
+                                    <p class="menu_left_hd">Women</p>
+                                    <hr class="menu_line">
+                                    <a href="" class="menu_block_link">Dresses</a>
+                                    <a href="" class="menu_block_link">Tops</a>
+                                    <a href="" class="menu_block_link">Sweaters/Knits</a>
+                                    <a href="" class="menu_block_link">Jackets/Coats</a>
+                                    <a href="" class="menu_block_link">Blazers</a>
+                                    <a href="" class="menu_block_link">Denim</a><a href=""
+                                        class="menu_block_link">Leggings/Pants</a>
+                                    <a href="" class="menu_block_link">Skirts/Shorts</a>
+                                    <a href="" class="menu_block_link">Accessories</a>
+                                </div>
+                                <div class="menu_block_center">
+                                    <p class="menu_left_hd">Women</p>
+                                    <hr class="menu_line">
+                                    <a href="" class="menu_block_link">Dresses
+
+
+                                    </a><a href="" class="menu_block_link">Tops</a><a href=""
+                                        class="menu_block_link">Sweaters/Knits</a><a href=""
+                                        class="menu_block_link">Jackets/Coats</a>
+
+                                    <p class="menu_left_hd">Women</p>
+                                    <hr class="menu_line">
+                                    <a href="" class="menu_block_link">Dresses</a><a href=""
+                                        class="menu_block_link">Tops</a><a href=""
+                                        class="menu_block_link">Sweaters/Knits</a>
+                                </div>
+                                <div class="menu_block_right">
+                                    <p class="menu_left_hd">Women</p>
+                                    <hr class="menu_line">
+                                    <a href="" class="menu_block_link">Dresses</a><a href=""
+                                        class="menu_block_link">Tops</a><a href=""
+                                        class="menu_block_link">Sweaters/Knits</a><a href=""
+                                        class="menu_block_link">Jackets/Coats</a>
+                                    <div class="menu_block_img"><img class="menu_block_image" width="235px"
+                                            height="118px" src="img/glasses.png" alt="glasses">
+                                        <p class="menu_block_img_txt">Super sale!</p>
+                                    </div>
+                                </div>
+                        </li>
+                        <li class="menu_list"><a class="menu_text" href="#">MAN</a>
+                            <div class="menu_block man">
+                                <div class="menu_block_left">
+                                    <p class="menu_left_hd">Women</p>
+                                    <hr class="menu_line">
+                                    <a href="" class="menu_block_link">Dresses</a>
+                                    <a href="" class="menu_block_link">Tops</a>
+                                    <a href="" class="menu_block_link">Sweaters/Knits</a>
+                                    <a href="" class="menu_block_link">Jackets/Coats</a>
+                                    <a href="" class="menu_block_link">Blazers</a>
+                                    <a href="" class="menu_block_link">Denim</a><a href=""
+                                        class="menu_block_link">Leggings/Pants</a>
+                                    <a href="" class="menu_block_link">Skirts/Shorts</a>
+                                    <a href="" class="menu_block_link">Accessories</a>
+                                </div>
+                                <div class="menu_block_center">
+                                    <p class="menu_left_hd">Women</p>
+                                    <hr class="menu_line">
+                                    <a href="" class="menu_block_link">Dresses
+
+
+                                    </a><a href="" class="menu_block_link">Tops</a><a href=""
+                                        class="menu_block_link">Sweaters/Knits</a><a href=""
+                                        class="menu_block_link">Jackets/Coats</a>
+
+                                    <p class="menu_left_hd">Women</p>
+                                    <hr class="menu_line">
+                                    <a href="" class="menu_block_link">Dresses</a><a href=""
+                                        class="menu_block_link">Tops</a><a href=""
+                                        class="menu_block_link">Sweaters/Knits</a>
+                                </div>
+                                <div class="menu_block_right">
+                                    <p class="menu_left_hd">Women</p>
+                                    <hr class="menu_line">
+                                    <a href="" class="menu_block_link">Dresses</a><a href=""
+                                        class="menu_block_link">Tops</a><a href=""
+                                        class="menu_block_link">Sweaters/Knits</a><a href=""
+                                        class="menu_block_link">Jackets/Coats</a>
+                                    <div class="menu_block_img"><img class="menu_block_image" width="235px"
+                                            height="118px" src="img/glasses.png" alt="glasses">
+                                        <p class="menu_block_img_txt">Super sale!</p>
+                                    </div>
+                                </div>
+                        </li>
+                        <li class="menu_list"><a class="menu_text" href="#">WOMEN</a>
+                            <div class="menu_block women">
+                                <div class="menu_block_left">
+                                    <p class="menu_left_hd">Women</p>
+                                    <hr class="menu_line">
+                                    <a href="" class="menu_block_link">Dresses</a>
+                                    <a href="" class="menu_block_link">Tops</a>
+                                    <a href="" class="menu_block_link">Sweaters/Knits</a>
+                                    <a href="" class="menu_block_link">Jackets/Coats</a>
+                                    <a href="" class="menu_block_link">Blazers</a>
+                                    <a href="" class="menu_block_link">Denim</a><a href=""
+                                        class="menu_block_link">Leggings/Pants</a>
+                                    <a href="" class="menu_block_link">Skirts/Shorts</a>
+                                    <a href="" class="menu_block_link">Accessories</a>
+                                </div>
+                                <div class="menu_block_center">
+                                    <p class="menu_left_hd">Women</p>
+                                    <hr class="menu_line">
+                                    <a href="" class="menu_block_link">Dresses
+
+
+                                    </a><a href="" class="menu_block_link">Tops</a><a href=""
+                                        class="menu_block_link">Sweaters/Knits</a><a href=""
+                                        class="menu_block_link">Jackets/Coats</a>
+
+                                    <p class="menu_left_hd">Women</p>
+                                    <hr class="menu_line">
+                                    <a href="" class="menu_block_link">Dresses</a><a href=""
+                                        class="menu_block_link">Tops</a><a href=""
+                                        class="menu_block_link">Sweaters/Knits</a>
+                                </div>
+                                <div class="menu_block_right">
+                                    <p class="menu_left_hd">Women</p>
+                                    <hr class="menu_line">
+                                    <a href="" class="menu_block_link">Dresses</a><a href=""
+                                        class="menu_block_link">Tops</a><a href=""
+                                        class="menu_block_link">Sweaters/Knits</a><a href=""
+                                        class="menu_block_link">Jackets/Coats</a>
+                                    <div class="menu_block_img"><img class="menu_block_image" width="235px"
+                                            height="118px" src="img/glasses.png" alt="glasses">
+                                        <p class="menu_block_img_txt">Super sale!</p>
+                                    </div>
+                                </div>
+                        </li>
+                        <li class="menu_list"><a class="menu_text" href="#">KIDS</a>
+                            <div class="menu_block kids">
+                                <div class="menu_block_left">
+                                    <p class="menu_left_hd">Women</p>
+                                    <hr class="menu_line">
+                                    <a href="" class="menu_block_link">Dresses</a>
+                                    <a href="" class="menu_block_link">Tops</a>
+                                    <a href="" class="menu_block_link">Sweaters/Knits</a>
+                                    <a href="" class="menu_block_link">Jackets/Coats</a>
+                                    <a href="" class="menu_block_link">Blazers</a>
+                                    <a href="" class="menu_block_link">Denim</a><a href=""
+                                        class="menu_block_link">Leggings/Pants</a>
+                                    <a href="" class="menu_block_link">Skirts/Shorts</a>
+                                    <a href="" class="menu_block_link">Accessories</a>
+                                </div>
+                                <div class="menu_block_center">
+                                    <p class="menu_left_hd">Women</p>
+                                    <hr class="menu_line">
+                                    <a href="" class="menu_block_link">Dresses
+
+
+                                    </a><a href="" class="menu_block_link">Tops</a><a href=""
+                                        class="menu_block_link">Sweaters/Knits</a><a href=""
+                                        class="menu_block_link">Jackets/Coats</a>
+
+                                    <p class="menu_left_hd">Women</p>
+                                    <hr class="menu_line">
+                                    <a href="" class="menu_block_link">Dresses</a><a href=""
+                                        class="menu_block_link">Tops</a><a href=""
+                                        class="menu_block_link">Sweaters/Knits</a>
+                                </div>
+                                <div class="menu_block_right">
+                                    <p class="menu_left_hd">Women</p>
+                                    <hr class="menu_line">
+                                    <a href="" class="menu_block_link">Dresses</a><a href=""
+                                        class="menu_block_link">Tops</a><a href=""
+                                        class="menu_block_link">Sweaters/Knits</a><a href=""
+                                        class="menu_block_link">Jackets/Coats</a>
+                                    <div class="menu_block_img"><img class="menu_block_image" width="235px"
+                                            height="118px" src="img/glasses.png" alt="glasses">
+                                        <p class="menu_block_img_txt">Super sale!</p>
+                                    </div>
+                                </div>
+                        </li>
+                        <li class="menu_list"><a class="menu_text" href="#">ACCOSERIESE</a>
+                            <div class="menu_block accose">
+                                <div class="menu_block_left">
+                                    <p class="menu_left_hd">Women</p>
+                                    <hr class="menu_line">
+                                    <a href="" class="menu_block_link">Dresses</a>
+                                    <a href="" class="menu_block_link">Tops</a>
+                                    <a href="" class="menu_block_link">Sweaters/Knits</a>
+                                    <a href="" class="menu_block_link">Jackets/Coats</a>
+                                    <a href="" class="menu_block_link">Blazers</a>
+                                    <a href="" class="menu_block_link">Denim</a><a href=""
+                                        class="menu_block_link">Leggings/Pants</a>
+                                    <a href="" class="menu_block_link">Skirts/Shorts</a>
+                                    <a href="" class="menu_block_link">Accessories</a>
+                                </div>
+                                <div class="menu_block_center">
+                                    <p class="menu_left_hd">Women</p>
+                                    <hr class="menu_line">
+                                    <a href="" class="menu_block_link">Dresses
+
+
+                                    </a><a href="" class="menu_block_link">Tops</a><a href=""
+                                        class="menu_block_link">Sweaters/Knits</a><a href=""
+                                        class="menu_block_link">Jackets/Coats</a>
+
+                                    <p class="menu_left_hd">Women</p>
+                                    <hr class="menu_line">
+                                    <a href="" class="menu_block_link">Dresses</a><a href=""
+                                        class="menu_block_link">Tops</a><a href=""
+                                        class="menu_block_link">Sweaters/Knits</a>
+                                </div>
+                                <div class="menu_block_right">
+                                    <p class="menu_left_hd">Women</p>
+                                    <hr class="menu_line">
+                                    <a href="" class="menu_block_link">Dresses</a><a href=""
+                                        class="menu_block_link">Tops</a><a href=""
+                                        class="menu_block_link">Sweaters/Knits</a><a href=""
+                                        class="menu_block_link">Jackets/Coats</a>
+                                    <div class="menu_block_img"><img class="menu_block_image" width="235px"
+                                            height="118px" src="img/glasses.png" alt="glasses">
+                                        <p class="menu_block_img_txt">Super sale!</p>
+                                    </div>
+                                </div>
+                        </li>
+                        <li class="menu_list"><a class="menu_text" href="#">FEATURED</a>
+                            <div class="menu_block featured">
+                                <div class="menu_block_left">
+                                    <p class="menu_left_hd">Women</p>
+                                    <hr class="menu_line">
+                                    <a href="" class="menu_block_link">Dresses</a>
+                                    <a href="" class="menu_block_link">Tops</a>
+                                    <a href="" class="menu_block_link">Sweaters/Knits</a>
+                                    <a href="" class="menu_block_link">Jackets/Coats</a>
+                                    <a href="" class="menu_block_link">Blazers</a>
+                                    <a href="" class="menu_block_link">Denim</a><a href=""
+                                        class="menu_block_link">Leggings/Pants</a>
+                                    <a href="" class="menu_block_link">Skirts/Shorts</a>
+                                    <a href="" class="menu_block_link">Accessories</a>
+                                </div>
+                                <div class="menu_block_center">
+                                    <p class="menu_left_hd">Women</p>
+                                    <hr class="menu_line">
+                                    <a href="" class="menu_block_link">Dresses
+
+
+                                    </a><a href="" class="menu_block_link">Tops</a><a href=""
+                                        class="menu_block_link">Sweaters/Knits</a><a href=""
+                                        class="menu_block_link">Jackets/Coats</a>
+
+                                    <p class="menu_left_hd">Women</p>
+                                    <hr class="menu_line">
+                                    <a href="" class="menu_block_link">Dresses</a><a href=""
+                                        class="menu_block_link">Tops</a><a href=""
+                                        class="menu_block_link">Sweaters/Knits</a>
+                                </div>
+                                <div class="menu_block_right">
+                                    <p class="menu_left_hd">Women</p>
+                                    <hr class="menu_line">
+                                    <a href="" class="menu_block_link">Dresses</a><a href=""
+                                        class="menu_block_link">Tops</a><a href=""
+                                        class="menu_block_link">Sweaters/Knits</a><a href=""
+                                        class="menu_block_link">Jackets/Coats</a>
+                                    <div class="menu_block_img"><img class="menu_block_image" width="235px"
+                                            height="118px" src="img/glasses.png" alt="glasses">
+                                        <p class="menu_block_img_txt">Super sale!</p>
+                                    </div>
+                                </div>
+                        </li>
+                        <li class="menu_list"><a class="menu_text" href="#">HOT DEALS</a>
+                            <div class="menu_block deals">
+                                <div class="menu_block_left">
+                                    <p class="menu_left_hd">Women</p>
+                                    <hr class="menu_line">
+                                    <a href="" class="menu_block_link">Dresses</a>
+                                    <a href="" class="menu_block_link">Tops</a>
+                                    <a href="" class="menu_block_link">Sweaters/Knits</a>
+                                    <a href="" class="menu_block_link">Jackets/Coats</a>
+                                    <a href="" class="menu_block_link">Blazers</a>
+                                    <a href="" class="menu_block_link">Denim</a><a href=""
+                                        class="menu_block_link">Leggings/Pants</a>
+                                    <a href="" class="menu_block_link">Skirts/Shorts</a>
+                                    <a href="" class="menu_block_link">Accessories</a>
+                                </div>
+                                <div class="menu_block_center">
+                                    <p class="menu_left_hd">Women</p>
+                                    <hr class="menu_line">
+                                    <a href="" class="menu_block_link">Dresses
+
+
+                                    </a><a href="" class="menu_block_link">Tops</a><a href=""
+                                        class="menu_block_link">Sweaters/Knits</a><a href=""
+                                        class="menu_block_link">Jackets/Coats</a>
+
+                                    <p class="menu_left_hd">Women</p>
+                                    <hr class="menu_line">
+                                    <a href="" class="menu_block_link">Dresses</a><a href=""
+                                        class="menu_block_link">Tops</a><a href=""
+                                        class="menu_block_link">Sweaters/Knits</a>
+                                </div>
+                                <div class="menu_block_right">
+                                    <p class="menu_left_hd">Women</p>
+                                    <hr class="menu_line">
+                                    <a href="" class="menu_block_link">Dresses</a><a href=""
+                                        class="menu_block_link">Tops</a><a href=""
+                                        class="menu_block_link">Sweaters/Knits</a><a href=""
+                                        class="menu_block_link">Jackets/Coats</a>
+                                    <div class="menu_block_img"><img class="menu_block_image" width="235px"
+                                            height="118px" src="img/glasses.png" alt="glasses">
+                                        <p class="menu_block_img_txt">Super sale!</p>
+                                    </div>
+                                </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="container">
+            <div class="banner_width">
+                <div class="banner_left">
+                    <a href="#" class="banner_link">
+                        <h2 class="banner_h2">New Arrivals</h2>
+                    </a>
+                </div>
+                <div class="banner_right">
+
+                    <p class="banner_txt">
+                        <a href="#" class="banner_link_p">Home</a> /<a href="#" class="banner_link_p"> Men
+                        </a>/<a href="" class="banner_link_span"> New Arrivals</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cart_box">
+        <div class="container">
+            <div class="cart_box_page">
+                <div class="cart_row1">
+                    <div class="cart_col1">Product Details </div>
+                    <div class="cart_col11">unite Price</div>
+                    <div class="cart_col111">Quantity</div>
+                    <div class="cart_col1111">shipping</div>
+                    <div class="cart_col11111">Subtotal</div>
+                    <div class="cart_col111111">ACTION</div>
+                </div>
+                <hr>
+                <div class="cart_row2">
+                    <a href="#">
+                        <div class="cart_col2">
+                            <img src="img/cart_pic1.png" alt="cart_pic1">
+                            <div class="block_parametrs">
+
+                                <p class="name_item">Mango People T-shirt</p>
+
+                                <div class="block_parametrs_in">
+                                    <p class="block_parametrs_p">Color: <span class="block_parametrs_span"> Red</span>
+                                    </p>
+                                    <p class="block_parametrs_p">Size: <span class="block_parametrs_span"> Xll</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="cart_col3">$150</div>
+                    <div class="cart_col4"> <select name="" id="quantity" class="quantity cart_quantity">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                    <div class="cart_col5">FREE</div>
+                    <div class="cart_col6">$300</div>
+                    <div class="cart_col7"><a href="#"><img src="img/cross.png" alt="cross"></a></div>
+                </div>
+                <hr>
+                <div class="cart_row2">
+                    <a href="#">
+                        <div class="cart_col2">
+                            <img src="img/cart_pic2.png" alt="cart_pic2">
+                            <div class="block_parametrs">
+
+                                <p class="name_item">Mango People T-shirt</p>
+
+                                <div class="block_parametrs_in">
+                                    <p class="block_parametrs_p">Color: <span class="block_parametrs_span"> Red</span>
+                                    </p>
+                                    <p class="block_parametrs_p">Size: <span class="block_parametrs_span"> Xll</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="cart_col3">$150</div>
+                    <div class="cart_col4"> <select name="" id="quantity" class="quantity cart_quantity">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                    <div class="cart_col5">FREE</div>
+                    <div class="cart_col6">$300</div>
+                    <div class="cart_col7"><a href="#"><img src="img/cross.png" alt="cross"></a></div>
+                </div>
+                <hr>
+                <div class="cart_row2">
+                    <a href="#">
+                        <div class="cart_col2">
+                            <img src="img/cart_pic3.png" alt="cart_pic3">
+                            <div class="block_parametrs">
+
+                                <p class="name_item">Mango People T-shirt</p>
+
+                                <div class="block_parametrs_in">
+                                    <p class="block_parametrs_p">Color: <span class="block_parametrs_span"> Red</span>
+                                    </p>
+                                    <p class="block_parametrs_p">Size: <span class="block_parametrs_span"> Xll</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="cart_col3">$150</div>
+                    <div class="cart_col4"> <select name="" id="quantity" class="quantity cart_quantity">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                    <div class="cart_col5">FREE</div>
+                    <div class="cart_col6">$300</div>
+                    <div class="cart_col7"><a href="#"><img src="img/cross.png" alt="cross"></a></div>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <div class="block_buttons container">
+        <a href="#">cLEAR SHOPPING CART</a><a href="#">cONTINUE sHOPPING</a>
+    </div>
+    <footer>
+        <div class="footer_top">
+            <div class="container">
+                <div class="footer_top_content">
+                    <div class="footer_top_left"><img src="img/woman_face.png" alt="woman_face"
+                            class="footer_top_img_left">
+                        <div class="footer_top_prgf">
+                            <p class="footer_top_prgf1">“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                                a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+                            <p class="footer_top_prgf2">Bin Burhan</p>
+                            <p class="footer_top_prgf3">Dhaka, Bd</p>
+                            <div class="footer_top_left_blocks">
+                                <div class="footer_top_left_block1"></div>
+                                <div class="footer_top_left_block2"></div>
+                                <div class="footer_top_left_block3"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_top_right">
+                        <p class="footer_top_right_txt">SUBSCRIBE</p>
+                        <p class="footer_top_right_txt2">FOR OUR NEWLETTER AND PROMOTION</p>
+                        <form action="#">
+                            <div class="form_subscribe"><input class="form_subscribe_enter" type="email" name="" id=""
+                                    placeholder="Enter Your Email">
+                                <button class="subscribe_submit" type="submit">Subscribe</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer_middle">
+            <div class="container">
+                <div class="footer_middle_content">
+                    <div class="footer_middle_left">
+                        <div class="logo_footer"><a href="" class="logo_link"></a>
+                            <img class="logotipe" src="img/logo.svg" alt="logo">
+                            <p class="logotipe_txt">BRAN<span class="logotipe_txt_d">D</span></p></a>
+                        </div>
+                        <p class="footer_meddle_left_prgf">Objectively transition extensive data rather than cross
+                            functional solutions.
+                            Monotonectally syndicate multidisciplinary materials before go forward benefits.
+                            Intrinsicly syndicate an expanded array of processes and cross-unit partnerships. </p>
+                        <p class="footer_meddle_left_prgf">Efficiently plagiarize 24/365 action items and focused
+                            infomediaries.
+                            Distinctively seize superior initiatives for wireless technologies. Dynamically
+                            optimize.</p>
+                    </div>
+                    <div class="footer_middle_right">
+                        <ul class="menu_footer">
+                            <div class="menu_middle_div">
+                                <li class="menu_footer_block"><a class="menu_footer_block_link" href="#">
+                                        COMPANY</a>
+                                    <ul>
+                                        <li class="menu_footer_list"><a class="menu_footer_link" href="#"> Home </a>
+                                        </li>
+                                        <li class="menu_footer_list"><a class="menu_footer_link" href="#"> Shop</a>
+                                        </li>
+                                        <li class="menu_footer_list"><a class="menu_footer_link" href="#"> About</a>
+                                        </li>
+                                        <li class="menu_footer_list"><a class="menu_footer_link" href="#"> How It
+                                                Works</a></li>
+                                        <li class="menu_footer_list"><a class="menu_footer_link" href="#">
+                                                Contact</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </div>
+                            <div class="menu_middle_div">
+                                <li class="menu_footer_block"><a class="menu_footer_block_link" href="#">
+                                        INFORMATION</a>
+                                    <ul>
+                                        <li class="menu_footer_list"><a class="menu_footer_link" href="#"> Tearms &
+                                                Condition</a></li>
+                                        <li class="menu_footer_list"><a class="menu_footer_link" href="#"> Privacy
+                                                Policy</a></li>
+                                        <li class="menu_footer_list"><a class="menu_footer_link" href="#"> How to
+                                                Buy</a></li>
+                                        <li class="menu_footer_list"><a class="menu_footer_link" href="#"> How to
+                                                Sell</a></li>
+                                        <li class="menu_footer_list"><a class="menu_footer_link" href="#">
+                                                Promotion</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </div>
+                            <div class="menu_middle_div">
+                                <li class="menu_footer_block"><a class="menu_footer_block_link" href="#"> SHOP
+                                        CATEGORY</a>
+                                    <ul>
+                                        <li class="menu_footer_list"><a class="menu_footer_link" href="#"> Men</a>
+                                        </li>
+                                        <li class="menu_footer_list"><a class="menu_footer_link" href="#"> Women</a>
+                                        </li>
+                                        <li class="menu_footer_list"><a class="menu_footer_link" href="#"> Child</a>
+                                        </li>
+                                        <li class="menu_footer_list"><a class="menu_footer_link" href="#">
+                                                Apparel</a>
+                                        </li>
+                                        <li class="menu_footer_list"><a class="menu_footer_link" href="#"> Brows
+                                                All</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="container">
+                <div class="footer_bottom_block">
+                    <div class="footer_bottom_left">
+                        <p class="footer_bottom_text"><a class="footer_bottom_link" href="#">© 2017 Brand All Rights
+                                Reserved.</a></p>
+                    </div>
+                    <div class="footer_bottom_right">
+                        <div class="fab">
+                            <a class="fab_link" href="#"><img class="fab_img" src="img/f.png" alt="f"></a></div>
+                        <div class="fab">
+                            <a class="fab_link" href="#"><img class="fab_img" src="img/tw.jpg" width="14px"
+                                    height="14px" alt="tw" color="#b2b2b2;"></a></div>
+                        <div class="fab">
+                            <a class="fab_link" href="#"><img class="fab_img" src="img/in.png" alt="in"></a></div>
+                        <div class="fab">
+                            <a class="fab_link" href="#"><img class="fab_img" src="img/pin.png" alt="pin"></a></div>
+                        <div class="fab">
+                            <a class="fab_link" href="#"><img class="fab_img" src="img/ggl.png" alt="ggl"></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
