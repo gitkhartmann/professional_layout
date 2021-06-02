@@ -63,6 +63,7 @@ summary {
     text-transform: uppercase;
     text-decoration: none;
     padding: 12px;
+    position: relative;
 }
 
 .logo {
@@ -878,8 +879,32 @@ line-height: normal;*/
     background-color: #ffffff;
     padding: 20px 25px;
     border: 1px solid #e8e8e8;
-    top: 151px;
-    right: 235px;
+    top: 42px;
+    right: -713px;
+
+    &.man {
+        right: -638px;
+    }
+
+    &.women {
+        right: -538px;
+    }
+
+    &.kids {
+        right: -465px;
+    }
+
+    &.accose {
+        right: -330px;
+    }
+
+    &.featured {
+        right: -218px;
+    }
+
+    &.deals {
+        right: -100px;
+    }
 }
 
 .menu_list:hover .menu_block {
