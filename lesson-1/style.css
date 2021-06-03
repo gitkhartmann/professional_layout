@@ -136,6 +136,7 @@ summary {
 }
 
 .details {
+  height: 38px;
   border-radius: 3px 0 0 3px;
   border: 1px solid #e6e6e6;
   background-color: #cdcdcc;
@@ -2137,5 +2138,127 @@ label {
   letter-spacing: normal;
   line-height: normal;
   text-transform: uppercase;
+}
+
+.acor-container {
+  margin: 20px auto;
+}
+
+.acor-container .acor-body {
+  height: 0;
+  color: rgba(0, 0, 0, 0);
+  background-color: #ffffff;
+  line-height: 18px;
+  padding: 0 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: color 0.5s, padding 0.5s;
+  transition: color 0.5s, padding 0.5s;
+  overflow: hidden;
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.acor-container .acor-body_left h4 {
+  color: #222222;
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.acor-container .acor-body_left p {
+  color: #b3b2b2;
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.acor-container .acor-body_left input {
+  width: 14px;
+  height: 14px;
+  border: 2px solid #555555;
+  background-color: #ffffff;
+}
+
+.acor-container .acor-body_left label {
+  color: #222222;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-left: 14px;
+}
+
+.acor-container .acor-body_left .register {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.acor-container .acor-body input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.acor-container > label {
+  cursor: pointer;
+  background-color: #ffffff;
+  display: block;
+  padding: 15px 20px;
+  width: 100%;
+  color: #000000;
+  font-weight: 300;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  z-index: 100;
+  font-family: Verdana, sans-serif;
+  font-size: 18px;
+  margin: 0 0 5px;
+  -webkit-transition: color .35s;
+  transition: color .35s;
+}
+
+.acor-container > label:hover {
+  color: #f16d7f;
+}
+
+.acor-container input {
+  display: none;
+}
+
+.acor-container input:checked {
+  background-color: #ffffff;
+  color: #222222;
+}
+
+.acor-container input:checked {
+  -webkit-transition: -webkit-transform .35s;
+  transition: -webkit-transform .35s;
+  transition: transform .35s;
+  transition: transform .35s, -webkit-transform .35s;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.acor-container input:checked + label + .acor-body {
+  height: auto;
+  margin-top: -5px;
+  color: #000;
+  padding: 35px 39px;
 }
 /*# sourceMappingURL=style.css.map */
