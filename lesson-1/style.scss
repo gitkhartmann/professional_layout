@@ -2097,16 +2097,18 @@ label {
         cursor: pointer;
         background-color: #ffffff;
         display: block;
-        padding: 15px 20px;
+        padding: 15px 20px 15px 0;
         width: 100%;
         color: #000000;
-        font-weight: 300;
+        font-weight: 700;
         box-sizing: border-box;
-        z-index: 100;
+        //z-index: 100;
         font-family: lato;
         font-size: 18px;
         margin: 0 0 5px;
         transition: color .35s;
+        height: 72px;
+        line-height: 44px;
 
         &:hover {
             color: #f16d7f;

@@ -2385,18 +2385,19 @@ label {
   cursor: pointer;
   background-color: #ffffff;
   display: block;
-  padding: 15px 20px;
+  padding: 15px 20px 15px 0;
   width: 100%;
   color: #000000;
-  font-weight: 300;
+  font-weight: 700;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  z-index: 100;
   font-family: lato;
   font-size: 18px;
   margin: 0 0 5px;
   -webkit-transition: color .35s;
   transition: color .35s;
+  height: 72px;
+  line-height: 44px;
 }
 
 .acor-container > label:hover {
