@@ -2421,6 +2421,236 @@ label {
   height: auto;
   margin-top: -5px;
   color: #000;
-  padding: 35px 49px 79px;
+  padding: 35px 28px 79px;
+}
+
+.product__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 59px;
+}
+
+.product__block .product__block_left input {
+  display: none;
+}
+
+.product__block .product__block_left input:checked + label + .block_category {
+  height: auto;
+  padding: 22px 17px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.product__block .product__block_left input:checked + label {
+  color: #ef5b70;
+  margin-bottom: 0px;
+}
+
+.product__block .product__block_left input:checked + label i {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.product__block .product__block_left .block_category {
+  height: 0px;
+  overflow: hidden;
+}
+
+.product__block .product__block_left a {
+  text-decoration: none;
+  color: #6f6e6e;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 33px;
+  text-align: left;
+  /* Text style for "Accessorie" */
+}
+
+.product__block .product__block_left label {
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  text-align: left;
+  text-transform: uppercase;
+  width: 243px;
+  height: 37px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #ebebeb;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 18px;
+}
+
+.product__block .product__block_left label:hover {
+  -webkit-transform: scale(102%);
+          transform: scale(102%);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.product__block .product__block_left label i {
+  margin-right: 5px;
+  margin-left: 57%;
+}
+
+.product__block .product__block_left label .margin_left1 {
+  margin-left: 67%;
+}
+
+.product__block .product__block_left label .margin_left2 {
+  margin-left: 59%;
+}
+
+.product__block .product__block_left label::before {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 36px;
+  background-color: #ef5b70;
+  margin-right: 11px;
+}
+
+.product__block .product__block_right {
+  width: 100%;
+}
+
+.product__block .product__block_right .product__block_right__options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.product__block .product__block_right .product__block_right__options .product__block_right__options_1_top {
+  color: #6f6e6e;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.product__block .product__block_right .product__block_right__options .product__block_right__options_1 {
+  width: 176px;
+}
+
+.product__block .product__block_right .product__block_right__options .product__block_right__options_1 .product__block_right__options_1_btm {
+  color: #6f6e6e;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 26px;
+  text-align: left;
+}
+
+.product__block .product__block_right .product__block_right__options .product__block_right__options_1 .product__block_right__options_1_btm a {
+  text-decoration: none;
+  color: #6f6e6e;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 26px;
+  text-align: left;
+  padding: 0 5px;
+}
+
+.product__block .product__block_right .product__block_right__options .product__block_right__options_1 .product__block_right__options_1_btm .padding_left {
+  padding-left: 0px;
+}
+
+.product__block .product__block_right .product__block_right__options .product__block_right__options_1 .product__block_right__options_1_btm .padding_right {
+  padding-right: 0px;
+}
+
+.product__block .product__block_right .product__block_right__options .product__block_right__options_2 {
+  width: 237px;
+}
+
+.product__block .product__block_right .product__block_right__options .product__block_right__options_2 .product__block_right__options_2_btm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.product__block .product__block_right .product__block_right__options .product__block_right__options_2 .product__block_right__options_2_btm input {
+  width: 13px;
+  height: 13px;
+  border: 1px solid #ebebeb;
+  background-color: #ffffff;
+  margin-right: 9px;
+  margin-left: 23px;
+}
+
+.product__block .product__block_right .product__block_right__options .product__block_right__options_2 .product__block_right__options_2_btm input:first-child {
+  margin-left: 0px;
+}
+
+.product__block .product__block_right .product__block_right__options .product__block_right__options_2 .product__block_right__options_2_btm input:nth-child(9) {
+  margin-left: 0px;
+}
+
+.product__block .product__block_right .product__block_right__options .product__block_right__options_2 .product__block_right__options_2_btm input:nth-child(11) {
+  margin-left: 42px;
+}
+
+.product__block .product__block_right .product__block_right__options .product__block_right__options_2 .product__block_right__options_2_btm label {
+  color: #6f6e6e;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  text-align: left;
+  text-transform: uppercase;
+  line-height: 25px;
+}
+
+.product__block .product__block_right .product__block_right__options .product__block_right__options_3 .product__block_right__options_3_btm input {
+  width: 262px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: #f0f0f0;
+}
+
+.product__block .product__block_right .product__block_right__options .product__block_right__options_3 .product__block_right__options_3_btm .block_price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 6px;
+  color: #6f6e6e;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 26px;
+  text-align: left;
 }
 /*# sourceMappingURL=style.css.map */
