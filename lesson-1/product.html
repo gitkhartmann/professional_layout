@@ -5,18 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shopping Cart</title>
-    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">-->
-    <link rel="stylesheet" href="style.css">
+    <title>Checkout</title>
+    <script src="https://kit.fontawesome.com/40e78ff414.js" crossorigin="anonymous"></script>
+
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- <script src="https://kit.fontawesome.com/40e78ff414.js" crossorigin="anonymous"></script>-->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header class="header">
+    <div class="header">
         <div class="container">
             <div class="menu_top">
                 <div class="menu_top_left">
@@ -369,7 +369,7 @@
                 </nav>
             </div>
         </div>
-    </header>
+    </div>
     <div class="banner">
         <div class="container">
             <div class="banner_width">
@@ -388,152 +388,343 @@
             </div>
         </div>
     </div>
-    <div class="cart_box">
-        <div class="container">
-            <div class="cart_box_page">
-                <div class="cart_row1">
-                    <div class="cart_col1">Product Details </div>
-                    <div class="cart_col11">unite Price</div>
-                    <div class="cart_col111">Quantity</div>
-                    <div class="cart_col1111">shipping</div>
-                    <div class="cart_col11111">Subtotal</div>
-                    <div class="cart_col111111">ACTION</div>
+    <div class="product__block container">
+        <div class="product__block_left">
+            <input type="radio" name="block_left_menu" id="category">
+            <label for="category">Category<i class="fas fa-caret-down"></i></label>
+            <div class="block_category">
+                <p> <a href="#"> Accessories
+                    </a> </p>
+                <p> <a href="#"> Bags
+                    </a></p>
+                <p> <a href="#"> Denim
+                    </a> </p>
+                <p> <a href="#"> Hoodies & Sweatshirts</a></p>
+                <p> <a href="#"> Jackets & Coats
+                    </a> </p>
+                <p> <a href="#"> Pants
+                    </a> </p>
+                <p> <a href="#"> Polos
+                    </a> </p>
+                <p> <a href="#"> Shirts
+                    </a> </p>
+                <p> <a href="#"> Shoes
+                    </a> </p>
+                <p> <a href="#"> Shorts
+                    </a> </p>
+                <p> <a href="#"> Sweaters & Knits
+                    </a> </p>
+                <p> <a href="#"> T-Shirts
+                    </a> </p>
+                <p> <a href="#"> Tanks
+                    </a> </p>
+            </div>
+            <input type="radio" name="block_left_menu" id="BRAND">
+            <label for="BRAND">BRAND<i class="fas fa-caret-down margin_left1"></i></label>
+            <div class="block_category">
+                <p> <a href="#"> Accessories
+                    </a> </p>
+                <p> <a href="#"> Bags
+                    </a></p>
+                <p> <a href="#"> Denim
+                    </a> </p>
+                <p> <a href="#"> Hoodies & Sweatshirts</a></p>
+                <p> <a href="#"> Jackets & Coats
+                    </a> </p>
+                <p> <a href="#"> Pants
+                    </a> </p>
+                <p> <a href="#"> Polos
+                    </a> </p>
+                <p> <a href="#"> Shirts
+                    </a> </p>
+                <p> <a href="#"> Shoes
+                    </a> </p>
+                <p> <a href="#"> Shorts
+                    </a> </p>
+                <p> <a href="#"> Sweaters & Knits
+                    </a> </p>
+                <p> <a href="#"> T-Shirts
+                    </a> </p>
+                <p> <a href="#"> Tanks
+                    </a> </p>
+            </div>
+            <input type="radio" name="block_left_menu" id="dESIGNER">
+            <label for="dESIGNER">DESIGNER<i class="fas fa-caret-down margin_left2"></i></label>
+            <div class="block_category">
+                <p> <a href="#"> Accessories
+                    </a> </p>
+                <p> <a href="#"> Bags
+                    </a></p>
+                <p> <a href="#"> Denim
+                    </a> </p>
+                <p> <a href="#"> Hoodies & Sweatshirts</a></p>
+                <p> <a href="#"> Jackets & Coats
+                    </a> </p>
+                <p> <a href="#"> Pants
+                    </a> </p>
+                <p> <a href="#"> Polos
+                    </a> </p>
+                <p> <a href="#"> Shirts
+                    </a> </p>
+                <p> <a href="#"> Shoes
+                    </a> </p>
+                <p> <a href="#"> Shorts
+                    </a> </p>
+                <p> <a href="#"> Sweaters & Knits
+                    </a> </p>
+                <p> <a href="#"> T-Shirts
+                    </a> </p>
+                <p> <a href="#"> Tanks
+                    </a> </p>
+            </div>
+
+        </div>
+        <div class="product__block_right">
+            <div class="product__block_right__options">
+                <div class="product__block_right__options_1">
+                    <div class="product__block_right__options_1_top">Trending now</div>
+                    <div class="product__block_right__options_1_btm"> <a class="padding_left" href="#"> Bohemian</a> |
+                        <a href="#">Floral</a>
+                        | <a href="#">Lace
+                            Floral</a> | <a href="#">Lace</a> | <a class="padding_right" href="#">Bohemian</a></div>
                 </div>
-                <hr>
-                <div class="cart_row2">
-                    <a href="#">
-                        <div class="cart_col2">
-                            <img src="img/cart_pic1.png" alt="cart_pic1">
-                            <div class="block_parametrs">
+                <div class="product__block_right__options_2">
+                    <div class="product__block_right__options_1_top">Size </div>
+                    <div class="product__block_right__options_2_btm">
 
-                                <p class="name_item">Mango People T-shirt</p>
+                        <input type="checkbox" name="XXS" id="XXS">
+                        <label for="XXS">XXS</label>
 
-                                <div class="block_parametrs_in">
-                                    <p class="block_parametrs_p">Color: <span class="block_parametrs_span"> Red</span>
-                                    </p>
-                                    <p class="block_parametrs_p">Size: <span class="block_parametrs_span"> Xll</span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <div class="cart_col3">$150</div>
-                    <div class="cart_col4"> <select name="" id="quantity" class="quantity cart_quantity">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                        </select>
+                        <input type="checkbox" name="XS" id="XS">
+                        <label for="XS">XS</label>
+
+                        <input type="checkbox" name="S" id="S">
+                        <label for="S">S</label>
+
+                        <input type="checkbox" name="M" id="M">
+                        <label for="M">M</label>
+
+                        <input type="checkbox" name="L" id="L">
+                        <label for="L">L</label>
+
+                        <input type="checkbox" name="XL" id="XL">
+                        <label for="XL">XL</label>
+
+                        <input type="checkbox" name="XXL" id="XXL">
+                        <label for="XXL">XXL</label>
                     </div>
-                    <div class="cart_col5">FREE</div>
-                    <div class="cart_col6">$300</div>
-                    <div class="cart_col7"><a href="#"><img src="img/cross.png" alt="cross"></a></div>
                 </div>
-                <hr>
-                <div class="cart_row2">
-                    <a href="#">
-                        <div class="cart_col2">
-                            <img src="img/cart_pic2.png" alt="cart_pic2">
-                            <div class="block_parametrs">
-
-                                <p class="name_item">Mango People T-shirt</p>
-
-                                <div class="block_parametrs_in">
-                                    <p class="block_parametrs_p">Color: <span class="block_parametrs_span"> Red</span>
-                                    </p>
-                                    <p class="block_parametrs_p">Size: <span class="block_parametrs_span"> Xll</span>
-                                    </p>
-                                </div>
-                            </div>
+                <div class="product__block_right__options_3">
+                    <div class="product__block_right__options_1_top">PRICE</div>
+                    <div class="product__block_right__options_3_btm">
+                        <input type="range" name="price" id="price" value="52">
+                        <div class="block_price">
+                            <p>$52</p>
+                            <p>$400</p>
                         </div>
-                    </a>
-                    <div class="cart_col3">$150</div>
-                    <div class="cart_col4"> <select name="" id="quantity" class="quantity cart_quantity">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                        </select>
                     </div>
-                    <div class="cart_col5">FREE</div>
-                    <div class="cart_col6">$300</div>
-                    <div class="cart_col7"><a href="#"><img src="img/cross.png" alt="cross"></a></div>
                 </div>
-                <hr>
-                <div class="cart_row2">
-                    <a href="#">
-                        <div class="cart_col2">
-                            <img src="img/cart_pic3.png" alt="cart_pic3">
-                            <div class="block_parametrs">
+            </div>
 
-                                <p class="name_item">Mango People T-shirt</p>
-
-                                <div class="block_parametrs_in">
-                                    <p class="block_parametrs_p">Color: <span class="block_parametrs_span"> Red</span>
-                                    </p>
-                                    <p class="block_parametrs_p">Size: <span class="block_parametrs_span"> Xll</span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+            <div class="product_block_parametrs">
+                <div class="sort">
+                    Sort By
+                    <select name="Sort_By" id="Sort_By">Name
+                        <option value="Name">Name</option>
+                        <option value="Gucci">Gucci</option>
+                        <option value="Tom_ford">Tom ford</option>
+                        <option value="Calvin_Klein">Calvin Klein</option>
+                        <option value="Armani">Armani</option>
+                    </select></div>
+                <div class="sort">
+                    Show
+                    <select class="show" name="Show" id="Show">09
+                        <option value="9">9</option>
+                        <option value="12">12</option>
+                        <option value="15">15</option>
+                    </select></div>
+            </div>
+            <div class="card_box">
+                <div class="card">
+                    <a class="card_link" href="#"> <img class="card_img" src="img/item1.png" alt="item">
+                        <h3 class="card_text">Mango Peopsdle T-shirt</h3>
+                        <p class="card_prc">$52.00</p>
                     </a>
-                    <div class="cart_col3">$150</div>
-                    <div class="cart_col4"> <select name="" id="quantity" class="quantity cart_quantity">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                        </select>
+
+                    <div class="link_add">
+                        <a href="#" class="add">
+                            <img class="cart_box" src="img/cart.svg" alt="cart">
+                            <p class="cart_text">Add to Cart</p>
+                        </a>
                     </div>
-                    <div class="cart_col5">FREE</div>
-                    <div class="cart_col6">$300</div>
-                    <div class="cart_col7"><a href="#"><img src="img/cross.png" alt="cross"></a></div>
+
                 </div>
-                <hr>
+                <div class="card">
+                    <a class="card_link" href="#"> <img class="card_img" src="img/item2.png" alt="item">
+                        <h3 class="card_text">Mango Peopsdle T-shirt</h3>
+                        <p class="card_prc">$52.00</p>
+                    </a>
+
+                    <div class="link_add">
+                        <a href="#" class="add">
+                            <img class="cart_box" src="img/cart.svg" alt="cart">
+                            <p class="cart_text">Add to Cart</p>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <a class="card_link" href="#"> <img class="card_img" src="img/item3.png" alt="item">
+                        <h3 class="card_text">Mango Peopsdle T-shirt</h3>
+                        <p class="card_prc">$52.00</p>
+                    </a>
+
+                    <div class="link_add">
+                        <a href="#" class="add">
+                            <img class="cart_box" src="img/cart.svg" alt="cart">
+                            <p class="cart_text">Add to Cart</p>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <a class="card_link" href="#"> <img class="card_img" src="img/item4.png" alt="item">
+                        <h3 class="card_text">Mango Peopsdle T-shirt</h3>
+                        <p class="card_prc">$52.00</p>
+                    </a>
+
+                    <div class="link_add">
+                        <a href="#" class="add">
+                            <img class="cart_box" src="img/cart.svg" alt="cart">
+                            <p class="cart_text">Add to Cart</p>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <a class="card_link" href="#"> <img class="card_img" src="img/item5.png" alt="item">
+                        <h3 class="card_text">Mango Peopsdle T-shirt</h3>
+                        <p class="card_prc">$52.00</p>
+                    </a>
+
+                    <div class="link_add">
+                        <a href="#" class="add">
+                            <img class="cart_box" src="img/cart.svg" alt="cart">
+                            <p class="cart_text">Add to Cart</p>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <a class="card_link" href="#"> <img class="card_img" src="img/item6.png" alt="item">
+                        <h3 class="card_text">Mango Peopsdle T-shirt</h3>
+                        <p class="card_prc">$52.00</p>
+                    </a>
+
+                    <div class="link_add">
+                        <a href="#" class="add">
+                            <img class="cart_box" src="img/cart.svg" alt="cart">
+                            <p class="cart_text">Add to Cart</p>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <a class="card_link" href="#"> <img class="card_img" src="img/item7.png" alt="item">
+                        <h3 class="card_text">Mango Peopsdle T-shirt</h3>
+                        <p class="card_prc">$52.00</p>
+                    </a>
+
+                    <div class="link_add">
+                        <a href="#" class="add">
+                            <img class="cart_box" src="img/cart.svg" alt="cart">
+                            <p class="cart_text">Add to Cart</p>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <a class="card_link" href="#"> <img class="card_img" src="img/item8.png" alt="item">
+                        <h3 class="card_text">Mango Peopsdle T-shirt</h3>
+                        <p class="card_prc">$52.00</p>
+                    </a>
+
+                    <div class="link_add">
+                        <a href="#" class="add">
+                            <img class="cart_box" src="img/cart.svg" alt="cart">
+                            <p class="cart_text">Add to Cart</p>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <a class="card_link" href="#"> <img class="card_img" src="img/item9.png" alt="item">
+                        <h3 class="card_text">Mango Peopsdle T-shirt</h3>
+                        <p class="card_prc">$52.00</p>
+                    </a>
+
+                    <div class="link_add">
+                        <a href="#" class="add">
+                            <img class="cart_box" src="img/cart.svg" alt="cart">
+                            <p class="cart_text">Add to Cart</p>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="pages">
+                <div class="pages__num">
+                    <i class="fas fa-chevron-left"></i>
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">6</a>
+                    <a href="#">.....</a>
+                    <a href="#">20</a>
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+                <a class="button_view" href="#">View All</a>
             </div>
         </div>
+
     </div>
-    <div class="block_buttons container">
-        <a href="#">cLEAR SHOPPING CART</a><a href="#">cONTINUE sHOPPING</a>
-    </div>
-    <div class="block_form container">
-        <div class="shipping">
-            <h3>Shipping Adress</h3>
-            <select name="" id="country">
-                <option value="USA">USA</option>
-                <option value="Brazilia">Brazilia</option>
-                <option value="Russia">Russia</option>
-                <option value="Germany">Germany</option>
-                <option value="England">England</option>
-            </select>
-            <input type="text" placeholder="State">
-            <input type="text" placeholder="Postcode / Zip">
-            <a href="">
-                <p>get a quote</p>
-            </a>
-        </div>
-        <div class="discont">
-            <h3>coupon discount</h3>
-            <p>Enter your coupon code if you have one</p>
-            <input type="text" placeholder="State">
-            <a href="">
-                Apply coupon
-            </a>
-        </div>
-        <div class="checkout">
-            <div class="checkout__box">
-                <p class="sub_p">Sub total <span class="span_sub">$900</span></p>
-                <p>GRAND TOTAL <span class="span_grand">$900</span></p>
-                <hr>
-                <a href="">
-                    proceed to checkout
-                </a>
+    <section class="offer_options blockofferoptions">
+        <div class="product container">
+            <div class="offer_blocks product__offer">
+                <img class="img_offer" src="img/ic_bus.svg" alt="ic_bus">
+                <div class="block_offers">
+                    <h3 class="h3_offer">Free Delivery</h3>
+                    <p class="p_offer">Worldwide delivery on all. Authorit tively morph next-generation innov
+                        tion with
+                        extensive
+                        models.</p>
+                </div>
+            </div>
+            <div class="offer_blocks product__offer">
+                <img class="img_offer" src="img/proc_ic.svg" alt="proc_ic">
+                <div class="block_offers">
+                    <h3 class="h3_offer">Sales & discounts</h3>
+                    <p class="p_offer">Worldwide delivery on all. Authorit tively morph next-generation innov
+                        tion with
+                        extensive
+                        models.</p>
+                </div>
+            </div>
+            <div class="offer_blocks product__offer">
+                <img class="img_offer" src="img/cor_ic.svg" alt="cor_ic">
+                <div class="block_offers">
+                    <h3 class="h3_offer">Quality assurance</h3>
+                    <p class="p_offer">Worldwide delivery on all. Authorit tively morph next-generation innov
+                        tion with
+                        extensive
+                        models.</p>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
     <footer>
         <div class="footer_top">
             <div class="container">
@@ -668,6 +859,7 @@
             </div>
         </div>
     </footer>
+
 </body>
 
 </html>
