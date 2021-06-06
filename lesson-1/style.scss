@@ -2235,6 +2235,16 @@ label {
 
     .product__block_right {
         width: 100%;
+        margin-left: 49px;
+
+        .card_box {
+            margin-top: 48px;
+            margin-bottom: 10px;
+
+            .card_img {
+                width: 100%;
+            }
+        }
 
         .product__block_right__options {
             display: flex;
@@ -2355,6 +2365,170 @@ label {
                         text-align: left;
                     }
                 }
+            }
+        }
+
+        .product_block_parametrs {
+            display: flex;
+            height: 50px;
+            background-color: #f3f3f3;
+            align-items: center;
+            color: #6f6e6e;
+            font-family: Lato;
+            font-size: 14px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 26px;
+            text-align: left;
+            margin-top: 40px;
+
+            select {
+                color: #6f6e6e;
+                font-family: Lato;
+                font-size: 14px;
+                font-weight: 400;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: 26px;
+                //text-align: left;
+                height: 30px;
+                width: 85px;
+                border-color: #ffffff;
+                border-left: 1px solid #ebebeb;
+                padding-left: 11px;
+                margin-left: 8px;
+
+            }
+
+            .sort {
+                border: 1px solid #ebebeb;
+                background-color: #ffffff;
+                height: 30px;
+                padding-left: 13px;
+                margin-left: 9px;
+            }
+
+            .show {
+                width: 62px;
+            }
+
+        }
+
+        .pages {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 110px;
+
+            .button_view {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #ef5b70;
+                font-size: 16px;
+                font-weight: bold;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: 26px;
+                text-decoration: none;
+                width: 150px;
+                height: 44px;
+                border-radius: 3px;
+                border: 1px solid #ef5b70;
+                background-color: #ffffff;
+            }
+
+            &__num {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                padding: 0 15px;
+                width: 229px;
+                height: 44px;
+                border-radius: 3px;
+                border: 1px solid #ebebeb;
+                background-color: #ffffff;
+
+                a {
+                    text-decoration: none;
+                    padding: 0 7px;
+                    color: #c4c4c4;
+                    font-size: 16px;
+                    font-weight: 500;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    line-height: 26px;
+
+                    &:hover {
+                        font-weight: bold;
+                        color: #ef5b70;
+                        transition: 0.3s;
+                        transform: scale(115%);
+                    }
+                }
+
+                i {
+                    display: flex;
+                    align-items: center;
+                    width: 8px;
+                    height: 13px;
+                    color: #aaaaaa;
+
+                    &:hover {
+                        color: #ef5b70;
+                        transition: 0.3s;
+                        transform: scale(103%);
+                    }
+                }
+
+            }
+
+
+
+        }
+    }
+}
+
+.blockofferoptions {
+    padding: 0px;
+    height: 341px;
+
+    .product {
+        display: flex;
+        justify-content: space-between;
+        min-width: 1140px;
+
+        &__offer {
+            display: flex;
+            flex-direction: column;
+            width: 308px;
+            justify-content: center;
+            align-items: center;
+
+            /*&:first-child {
+                margin-right: 81px;
+            }
+
+            &:last-child {
+                margin-left: 81px;
+            }*/
+
+            img {
+                align-self: center;
+                margin-bottom: 32px;
+            }
+
+            h3 {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 17px;
+            }
+
+            p {
+                display: flex;
+                justify-content: center;
+                text-align: center;
             }
         }
     }
