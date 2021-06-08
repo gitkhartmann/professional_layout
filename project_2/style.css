@@ -116,6 +116,10 @@ body {
   width: 51.9%;
 }
 
+.header__nav .header__search_block {
+  height: 32px;
+}
+
 .header__nav .header__menu_ul {
   list-style-type: none;
   display: -webkit-box;
@@ -124,6 +128,7 @@ body {
 }
 
 .header__search {
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -134,7 +139,7 @@ body {
 
 .header__search .search--input {
   width: 260px;
-  height: 32px;
+  height: 100%;
   border: 1px solid #e1e1e1;
   background-color: #ffffff;
   border-right: 0px;
@@ -153,7 +158,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
   width: 32px;
-  height: 30px;
   border: 1px solid #e1e1e1;
   background-color: #ffffff;
   border-left: 0px;

@@ -114,6 +114,10 @@ body {
     &__nav {
         width: 51.9%;
 
+        .header__search_block {
+            height: 32px;
+        }
+
         .header__menu_ul {
             list-style-type: none;
             display: flex;
@@ -121,9 +125,11 @@ body {
     }
 
     &__search {
+        height: 100%;
+
         .search--input {
             width: 260px;
-            height: 32px;
+            height: 100%;
             border: 1px solid #e1e1e1;
             background-color: #ffffff;
             border-right: 0px;
@@ -136,7 +142,6 @@ body {
             justify-content: center;
             align-items: center;
             width: 32px;
-            height: 30px;
             border: 1px solid #e1e1e1;
             background-color: #ffffff;
             border-left: 0px;
