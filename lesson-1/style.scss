@@ -12,6 +12,10 @@ body {
     max-width: 1140px;
 }
 
+input {
+    outline: none;
+}
+
 summary {
     display: block;
 }
@@ -64,6 +68,20 @@ summary {
     text-decoration: none;
     padding: 12px;
     position: relative;
+    transition: all 0.35s;
+
+    &:hover {
+        transition: all 0.35s;
+
+        &::before {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 3px;
+            background-color: #ef5b70;
+
+        }
+    }
 }
 
 .logo {
@@ -83,6 +101,10 @@ summary {
     align-self: center;
 }
 
+.input_search-block {
+    display: flex;
+}
+
 .input_search {
     color: #a4a4a4;
     font-family: Lato;
@@ -99,23 +121,24 @@ summary {
     text-align: left;
     padding-left: 15px;
     border-left: 0px;
+    outline: none;
 }
 
 .button_search {
     float: right;
-    padding: 10px;
+    padding: 9px;
     color: #a4a4a4;
     font-size: 15px;
     cursor: pointer;
     border-radius: 0 3px 3px 0;
     border: 1px solid #e6e6e6;
     background-color: #ffffff;
-    height: 38px;
+    //height: 38px;
     border-left: none;
 }
 
 .details {
-    height: 38px;
+    //height: 38px;
     border-radius: 3px 0 0 3px;
     border: 1px solid #e6e6e6;
     background-color: #cdcdcc;
@@ -333,8 +356,12 @@ summary {
     padding: 10px;
     border: 1px solid #ffffff;
     text-decoration: none;
-    box-shadow: 0px 0px 5px 2px #ffffff;
+
     align-items: center;
+
+    &:hover {
+        box-shadow: 0px 0px 5px 2px #ffffff;
+    }
 }
 
 .card:hover .link_add {
@@ -393,14 +420,22 @@ summary {
 .link_to_kat {
     display: flex;
     text-decoration: none;
-    background-color: #f16d7f;
+    background-color: #ffffff;
     padding: 18px 24px;
     align-items: center;
+    color: #ef5b70;
+    border: 1px solid #ef5b70;
+    transition: all 0.35s;
+
+    &:hover {
+        background-color: #f16d7f;
+        color: #ffffff;
+        transition: all 0.35s;
+    }
 }
 
 .link_to_kat_text {
     margin-right: 8px;
-    color: #ffffff;
     font-family: Lato;
     font-size: 16px;
     font-weight: 550;
@@ -681,8 +716,6 @@ line-height: normal;*/
 
 .subscribe_submit {
     border-radius: 0 23px 23px 0;
-    background-color: #f16d7f;
-    color: #ffffff;
     font-family: Lato;
     font-size: 14px;
     font-weight: 400;
@@ -690,13 +723,20 @@ line-height: normal;*/
     letter-spacing: normal;
     line-height: 54px;
     text-align: center;
-    /*Text style for "Subscribe"*/
-    /*font-style: normal;
-    letter-spacing: 0.35px;
-    line-height: normal;*/
     border: none;
     padding: 0px 20px;
     width: 104px;
+    background-color: #ffffff;
+    align-items: center;
+    color: #ef5b70;
+    border: 1px solid #ef5b70;
+    transition: all 0.35s;
+
+    &:hover {
+        background-color: #f16d7f;
+        color: #ffffff;
+        transition: all 0.35s;
+    }
 }
 
 .footer_middle_content {
@@ -807,11 +847,11 @@ line-height: normal;*/
     font-style: normal;
     letter-spacing: normal;
     line-height: 42px;
-    /* Text style for "Home" 
-    line-height: 59px;
-    line-height: normal;
-    /* Text style for "Shop , Abo" 
-    line-height: 42px;*/
+
+    &:hover {
+        color: #f16d7f;
+        transition: 0.2s;
+    }
 }
 
 .menu_footer_link {
@@ -1028,10 +1068,10 @@ line-height: normal;*/
     letter-spacing: normal;
     line-height: 32px;
     text-transform: capitalize;
-    /* Text style for "Dresses ," 
-    font-style: normal;
-    letter-spacing: 0.35px;
-    line-height: normal;*/
+
+    &:hover {
+        color: #f16d7f;
+    }
 }
 
 .menu_left_hd {
@@ -1395,6 +1435,13 @@ line-height: normal;*/
     height: 55px;
     border: 1px solid #ef5b70;
     background-color: #ffffff;
+    color: #ef5b70;
+
+    &:hover {
+        color: #ffffff;
+        background-color: #ef5b70;
+
+    }
 }
 
 .options_add_cart_link {
@@ -1402,6 +1449,27 @@ line-height: normal;*/
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 100%;
+    transition: all 0.35s;
+
+    &:hover {
+        img {
+            display: none;
+        }
+
+        &::before {
+            content: url('img/cart.svg');
+            display: block;
+            margin-right: 15px;
+            transition: all 0.35s;
+
+        }
+
+        p {
+            color: #ffffff;
+        }
+    }
 }
 
 .options_cart_svg {
@@ -1649,6 +1717,13 @@ label {
         text-align: left;
         text-transform: uppercase;
         padding: 20px 38px;
+        transition: all 0.35s;
+
+        &:hover {
+            background-color: #f16d7f;
+            color: #ffffff;
+            transition: all 0.35s;
+        }
     }
 }
 
@@ -1720,6 +1795,13 @@ label {
             line-height: normal;
             text-align: left;
             text-transform: uppercase;
+            transition: all 0.35s;
+
+            &:hover {
+                background-color: #f16d7f;
+                color: #ffffff;
+                transition: all 0.35s;
+            }
         }
     }
 
@@ -1787,6 +1869,13 @@ label {
             line-height: normal;
             text-align: left;
             text-transform: uppercase;
+            transition: all 0.35s;
+
+            &:hover {
+                background-color: #f16d7f;
+                color: #ffffff;
+                transition: all 0.35s;
+            }
         }
     }
 
@@ -1846,8 +1935,6 @@ label {
             align-items: center;
             width: 100%;
             height: 50px;
-            background-color: #f16d7f;
-            color: #ffffff;
             font-family: Lato;
             font-size: 16px;
             font-weight: 700;
@@ -1855,6 +1942,16 @@ label {
             letter-spacing: normal;
             line-height: normal;
             text-transform: uppercase;
+            color: #4a4a4a;
+            border: 1px solid #eaeaea;
+            background-color: #ffffff;
+            transition: all 0.35s;
+
+            &:hover {
+                background-color: #f16d7f;
+                color: #ffffff;
+                transition: all 0.35s;
+            }
         }
     }
 }
@@ -1984,6 +2081,12 @@ label {
                 text-transform: uppercase;
                 padding: 19px 53px;
                 margin-bottom: 79px;
+
+                &:hover {
+                    background-color: #f16d7f;
+                    color: #ffffff;
+                    transition: all 0.35s;
+                }
             }
         }
 
@@ -2083,6 +2186,12 @@ label {
                 letter-spacing: normal;
                 line-height: 20px;
                 text-align: left;
+
+                &:hover {
+                    background-color: #f16d7f;
+                    color: #ffffff;
+                    transition: all 0.35s;
+                }
             }
         }
 
@@ -2179,7 +2288,11 @@ label {
             letter-spacing: normal;
             line-height: 33px;
             text-align: left;
-            /* Text style for "Accessorie" */
+            display: block;
+
+            &:hover {
+                color: #f16d7f;
+            }
         }
 
         label {
@@ -2398,6 +2511,7 @@ label {
                 border-left: 1px solid #ebebeb;
                 padding-left: 11px;
                 margin-left: 8px;
+                outline: none;
 
             }
 
@@ -2437,6 +2551,11 @@ label {
                 border-radius: 3px;
                 border: 1px solid #ef5b70;
                 background-color: #ffffff;
+
+                &:hover {
+                    color: #ffffff;
+                    background-color: #ef5b70;
+                }
             }
 
             &__num {

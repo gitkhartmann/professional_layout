@@ -16,11 +16,11 @@
 </head>
 
 <body>
-    <div class="header">
+    <header class="header">
         <div class="container">
-            <div class="menu_top">
+            <section class="menu_top">
                 <div class="menu_top_left">
-                    <div class="logo_top"><a href="" class="logo_link"></a>
+                    <div class="logo_top"><a href="index.html" class="logo_link"></a>
                         <img class="logotipe" src="img/logo.svg" alt="logo">
                         <p class="logotipe_txt">BRAN<span class="logotipe_txt_d">D</span></p></a>
                     </div>
@@ -34,15 +34,17 @@
                             </details>
                         </div>
                         <form action="#">
-                            <input type="text" class="input_search" placeholder="Search for item..." name="" id="">
-                            <button class="button_search" type="submit" value="" width="36px" height="36px"><i
-                                    class="fa fa-search"></i></button>
+                            <div class="input_search-block">
+                                <input type="text" class="input_search" placeholder="Search for item..." name="" id="">
+                                <button class="button_search" type="submit" value="" width="36px" height="36px"><i
+                                        class="fa fa-search"></i></button></div>
                         </form>
                     </div>
                 </div>
                 <div class="menu_top_right">
                     <div class="cart">
-                        <a href="#" width="32px" height="29px"><img src="img/cart.png" alt="cart"></a></div>
+                        <a href="shopping_cart.html" width="32px" height="29px"><img src="img/cart.png" alt="cart"></a>
+                    </div>
                     <details>
                         <summary class="account_manage">
                             <p class="account_text">My&nbsp;Account</p>
@@ -50,11 +52,11 @@
                         </summary>
                     </details>
                 </div>
-            </div>
+            </section>
         </div>
         <hr class="line">
         <div class="container">
-            <div class="menu_bottom">
+            <section class="menu_bottom">
                 <nav>
                     <ul class="menu">
                         <li class="menu_list"><a class="menu_text" href="#"> HOME </a>
@@ -367,30 +369,30 @@
                         </li>
                     </ul>
                 </nav>
-            </div>
-        </div>
-    </div>
-    <div class="banner">
+            </section>
+    </header>
+    <section class="banner">
         <div class="container">
             <div class="banner_width">
                 <div class="banner_left">
-                    <a href="#" class="banner_link">
+                    <a href="product.html" class="banner_link">
                         <h2 class="banner_h2">New Arrivals</h2>
                     </a>
                 </div>
                 <div class="banner_right">
 
                     <p class="banner_txt">
-                        <a href="#" class="banner_link_p">Home</a> /<a href="#" class="banner_link_p"> Men
-                        </a>/<a href="" class="banner_link_span"> New Arrivals</a>
+                        <a href="index.html" class="banner_link_p">Home</a> /<a href="product.html"
+                            class="banner_link_p"> Men
+                        </a>/<a href="product.html" class="banner_link_span"> New Arrivals</a>
                     </p>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="product__block container">
-        <div class="product__block_left">
-            <input type="radio" name="block_left_menu" id="category">
+    </section>
+    <section class="product__block container">
+        <section class="product__block_left">
+            <input type="checkbox" name="block_left_menu" id="category">
             <label for="category">Category<i class="fas fa-caret-down"></i></label>
             <div class="block_category">
                 <p> <a href="#"> Accessories
@@ -419,7 +421,7 @@
                 <p> <a href="#"> Tanks
                     </a> </p>
             </div>
-            <input type="radio" name="block_left_menu" id="BRAND">
+            <input type="checkbox" name="block_left_menu" id="BRAND">
             <label for="BRAND">BRAND<i class="fas fa-caret-down margin_left1"></i></label>
             <div class="block_category">
                 <p> <a href="#"> Accessories
@@ -448,7 +450,7 @@
                 <p> <a href="#"> Tanks
                     </a> </p>
             </div>
-            <input type="radio" name="block_left_menu" id="dESIGNER">
+            <input type="checkbox" name="block_left_menu" id="dESIGNER">
             <label for="dESIGNER">DESIGNER<i class="fas fa-caret-down margin_left2"></i></label>
             <div class="block_category">
                 <p> <a href="#"> Accessories
@@ -478,8 +480,8 @@
                     </a> </p>
             </div>
 
-        </div>
-        <div class="product__block_right">
+        </section>
+        <section class="product__block_right">
             <div class="product__block_right__options">
                 <div class="product__block_right__options_1">
                     <div class="product__block_right__options_1_top">Trending now</div>
@@ -530,7 +532,6 @@
                 <div class="sort">
                     Sort By
                     <select name="Sort_By" id="Sort_By">Name
-                        <option value="Name">Name</option>
                         <option value="Gucci">Gucci</option>
                         <option value="Tom_ford">Tom ford</option>
                         <option value="Calvin_Klein">Calvin Klein</option>
@@ -546,13 +547,13 @@
             </div>
             <div class="card_box">
                 <div class="card">
-                    <a class="card_link" href="#"> <img class="card_img" src="img/item1.png" alt="item">
+                    <a class="card_link" href="single_page.html"> <img class="card_img" src="img/item1.png" alt="item">
                         <h3 class="card_text">Mango Peopsdle T-shirt</h3>
                         <p class="card_prc">$52.00</p>
                     </a>
 
                     <div class="link_add">
-                        <a href="#" class="add">
+                        <a href="shopping_cart.html" class="add">
                             <img class="cart_box" src="img/cart.svg" alt="cart">
                             <p class="cart_text">Add to Cart</p>
                         </a>
@@ -560,13 +561,13 @@
 
                 </div>
                 <div class="card">
-                    <a class="card_link" href="#"> <img class="card_img" src="img/item2.png" alt="item">
+                    <a class="card_link" href="single_page.html"> <img class="card_img" src="img/item2.png" alt="item">
                         <h3 class="card_text">Mango Peopsdle T-shirt</h3>
                         <p class="card_prc">$52.00</p>
                     </a>
 
                     <div class="link_add">
-                        <a href="#" class="add">
+                        <a href="shopping_cart.html" class="add">
                             <img class="cart_box" src="img/cart.svg" alt="cart">
                             <p class="cart_text">Add to Cart</p>
                         </a>
@@ -574,13 +575,13 @@
 
                 </div>
                 <div class="card">
-                    <a class="card_link" href="#"> <img class="card_img" src="img/item3.png" alt="item">
+                    <a class="card_link" href="single_page.html"> <img class="card_img" src="img/item3.png" alt="item">
                         <h3 class="card_text">Mango Peopsdle T-shirt</h3>
                         <p class="card_prc">$52.00</p>
                     </a>
 
                     <div class="link_add">
-                        <a href="#" class="add">
+                        <a href="shopping_cart.html" class="add">
                             <img class="cart_box" src="img/cart.svg" alt="cart">
                             <p class="cart_text">Add to Cart</p>
                         </a>
@@ -588,13 +589,13 @@
 
                 </div>
                 <div class="card">
-                    <a class="card_link" href="#"> <img class="card_img" src="img/item4.png" alt="item">
+                    <a class="card_link" href="single_page.html"> <img class="card_img" src="img/item4.png" alt="item">
                         <h3 class="card_text">Mango Peopsdle T-shirt</h3>
                         <p class="card_prc">$52.00</p>
                     </a>
 
                     <div class="link_add">
-                        <a href="#" class="add">
+                        <a href="shopping_cart.html" class="add">
                             <img class="cart_box" src="img/cart.svg" alt="cart">
                             <p class="cart_text">Add to Cart</p>
                         </a>
@@ -602,13 +603,13 @@
 
                 </div>
                 <div class="card">
-                    <a class="card_link" href="#"> <img class="card_img" src="img/item5.png" alt="item">
+                    <a class="card_link" href="single_page.html"> <img class="card_img" src="img/item5.png" alt="item">
                         <h3 class="card_text">Mango Peopsdle T-shirt</h3>
                         <p class="card_prc">$52.00</p>
                     </a>
 
                     <div class="link_add">
-                        <a href="#" class="add">
+                        <a href="shopping_cart.html" class="add">
                             <img class="cart_box" src="img/cart.svg" alt="cart">
                             <p class="cart_text">Add to Cart</p>
                         </a>
@@ -616,13 +617,13 @@
 
                 </div>
                 <div class="card">
-                    <a class="card_link" href="#"> <img class="card_img" src="img/item6.png" alt="item">
+                    <a class="card_link" href="single_page.html"> <img class="card_img" src="img/item6.png" alt="item">
                         <h3 class="card_text">Mango Peopsdle T-shirt</h3>
                         <p class="card_prc">$52.00</p>
                     </a>
 
                     <div class="link_add">
-                        <a href="#" class="add">
+                        <a href="shopping_cart.html" class="add">
                             <img class="cart_box" src="img/cart.svg" alt="cart">
                             <p class="cart_text">Add to Cart</p>
                         </a>
@@ -630,13 +631,13 @@
 
                 </div>
                 <div class="card">
-                    <a class="card_link" href="#"> <img class="card_img" src="img/item7.png" alt="item">
+                    <a class="card_link" href="single_page.html"> <img class="card_img" src="img/item7.png" alt="item">
                         <h3 class="card_text">Mango Peopsdle T-shirt</h3>
                         <p class="card_prc">$52.00</p>
                     </a>
 
                     <div class="link_add">
-                        <a href="#" class="add">
+                        <a href="shopping_cart.html" class="add">
                             <img class="cart_box" src="img/cart.svg" alt="cart">
                             <p class="cart_text">Add to Cart</p>
                         </a>
@@ -644,13 +645,13 @@
 
                 </div>
                 <div class="card">
-                    <a class="card_link" href="#"> <img class="card_img" src="img/item8.png" alt="item">
+                    <a class="card_link" href="single_page.html"> <img class="card_img" src="img/item8.png" alt="item">
                         <h3 class="card_text">Mango Peopsdle T-shirt</h3>
                         <p class="card_prc">$52.00</p>
                     </a>
 
                     <div class="link_add">
-                        <a href="#" class="add">
+                        <a href="shopping_cart.html" class="add">
                             <img class="cart_box" src="img/cart.svg" alt="cart">
                             <p class="cart_text">Add to Cart</p>
                         </a>
@@ -658,13 +659,13 @@
 
                 </div>
                 <div class="card">
-                    <a class="card_link" href="#"> <img class="card_img" src="img/item9.png" alt="item">
+                    <a class="card_link" href="single_page.html"> <img class="card_img" src="img/item9.png" alt="item">
                         <h3 class="card_text">Mango Peopsdle T-shirt</h3>
                         <p class="card_prc">$52.00</p>
                     </a>
 
                     <div class="link_add">
-                        <a href="#" class="add">
+                        <a href="shopping_cart.html" class="add">
                             <img class="cart_box" src="img/cart.svg" alt="cart">
                             <p class="cart_text">Add to Cart</p>
                         </a>
@@ -688,9 +689,9 @@
                 </div>
                 <a class="button_view" href="#">View All</a>
             </div>
-        </div>
+        </section>
 
-    </div>
+    </section>
     <section class="offer_options blockofferoptions">
         <div class="product container">
             <div class="offer_blocks product__offer">
