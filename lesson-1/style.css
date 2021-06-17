@@ -231,6 +231,119 @@ summary {
       align-self: flex-end;
 }
 
+.cart__box {
+  width: 262px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 20px 18px;
+}
+
+.cart__box hr {
+  border: 1px solid #ededed;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.cart__box a {
+  text-decoration: none;
+}
+
+.cart__box .cart__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cart__box .cart__item .cross {
+  color: #c0c0c0;
+}
+
+.cart__box .cart__item--info {
+  margin-right: 65px;
+}
+
+.cart__box .cart__item--info .item__info-1 {
+  color: #222222;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 900;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.cart__box .cart__item--info .item__info-2 {
+  color: #f16d7f;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  text-transform: uppercase;
+  margin-top: 12px;
+}
+
+.cart__box .cart__item img {
+  margin-right: 14px;
+}
+
+.cart__box .cart__item .star {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cart__box .cart__item .star .star_in {
+  color: #e4af48;
+}
+
+.cart__box .cart__total--block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #222222;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 19px;
+  margin-bottom: 32px;
+}
+
+.cart__box .cart__checkout--link {
+  margin-top: 11px;
+  display: block;
+  border: 1px solid #eaeaea;
+  background-color: #ffffff;
+  color: #4a4a4a;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-transform: uppercase;
+  padding: 15px 88px;
+}
+
+.cart__box .cart__checkout--link:hover {
+  border: 1px solid #f16d7f;
+  color: #f16d7f;
+}
+
 .account_manage {
   background-color: #f16d7f;
   padding-left: 15px;
